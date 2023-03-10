@@ -142,7 +142,7 @@ input {
 		width: 20%;
 	}
 	.Header > div:nth-of-type(2) {
-		width: 40%;
+		width: 50%;
 	}
 	.Header > div:nth-of-type(3) {
 		display: none;
@@ -151,6 +151,6 @@ input {
 		display: none;
 	}
 	.Header > div:nth-of-type(5) {
-		width: 40%;
+		width: 30%;
 	}
 }

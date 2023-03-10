@@ -94,13 +94,13 @@ const HomePage = () => {
 							);
 						})
 					) : (
-						<span>
-							Data loading <CircularProgress />
+						<span className="Loading">
+							<CircularProgress /> Data loading...
 						</span>
 					)}
 				</div>
 			</div>
-			<ModalPage open={open} setOpen={setOpen} singleUser={singleUser} />
+			{/* <ModalPage open={open} setOpen={setOpen} singleUser={singleUser} /> */}
 		</>
 	);
 };

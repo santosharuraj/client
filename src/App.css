@@ -25,6 +25,7 @@ input {
 	display: flex;
 	flex-direction: column;
 	gap: 2px;
+	position: relative;
 }
 
 .Header {
@@ -117,6 +118,16 @@ input {
 	font-size: 15px;
 	font-weight: 600;
 	color: gray;
+}
+
+.Loading {
+	position: absolute;
+	justify-content: center;
+	align-self: center;
+	margin-top: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	color: black;
 }
 
 @media screen and (max-width: 480px) {

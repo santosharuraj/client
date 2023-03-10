@@ -100,7 +100,7 @@ const HomePage = () => {
 					)}
 				</div>
 			</div>
-			{/* <ModalPage open={open} setOpen={setOpen} singleUser={singleUser} /> */}
+			<ModalPage open={open} setOpen={setOpen} singleUser={singleUser} />
 		</>
 	);
 };

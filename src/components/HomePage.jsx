@@ -18,7 +18,7 @@ const HomePage = () => {
 					}
 				);
 
-				if (response.status == 200) {
+				if (response.status === 200) {
 					const value = await response.json();
 
 					setData(value);
@@ -42,8 +42,8 @@ const HomePage = () => {
 	};
 
 	const filteredData =
-		data != undefined &&
-		data != null &&
+		data !== undefined &&
+		data !== null &&
 		data.length > 0 &&
 		data.filter((item) =>
 			item.name.toLowerCase().includes(searchQuery.toLowerCase())

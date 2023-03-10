@@ -24,8 +24,8 @@ const ModalPage = ({ open, setOpen, singleUser }) => {
 						</div>
 						<div>
 							<span>
-								{singleUser != undefined &&
-									singleUser != null &&
+								{singleUser !== undefined &&
+									singleUser !== null &&
 									singleUser.name}
 							</span>
 						</div>
@@ -39,8 +39,8 @@ const ModalPage = ({ open, setOpen, singleUser }) => {
 						</div>
 						<div>
 							<span>
-								{singleUser != undefined &&
-									singleUser != null &&
+								{singleUser !== undefined &&
+									singleUser !== null &&
 									singleUser.username}
 							</span>
 						</div>
@@ -54,8 +54,8 @@ const ModalPage = ({ open, setOpen, singleUser }) => {
 						</div>
 						<div>
 							<span>
-								{singleUser != undefined &&
-									singleUser != null &&
+								{singleUser !== undefined &&
+									singleUser !== null &&
 									singleUser.email}
 							</span>
 						</div>
@@ -69,8 +69,8 @@ const ModalPage = ({ open, setOpen, singleUser }) => {
 						</div>
 						<div>
 							<span>
-								{singleUser != undefined &&
-									singleUser != null &&
+								{singleUser !== undefined &&
+									singleUser !== null &&
 									singleUser.phone}
 							</span>
 						</div>
@@ -83,7 +83,7 @@ const ModalPage = ({ open, setOpen, singleUser }) => {
 							<span>:</span>
 						</div>
 						<div>
-							{singleUser != undefined && singleUser != null && (
+							{singleUser !== undefined && singleUser !== null && (
 								<span>
 									{singleUser.address.street},{singleUser.address.city},
 									{singleUser.address.zipcode}
@@ -100,8 +100,8 @@ const ModalPage = ({ open, setOpen, singleUser }) => {
 						</div>
 						<div>
 							<span>
-								{singleUser != undefined &&
-									singleUser != null &&
+								{singleUser !== undefined &&
+									singleUser !== null &&
 									singleUser.website}
 							</span>
 						</div>
@@ -115,8 +115,8 @@ const ModalPage = ({ open, setOpen, singleUser }) => {
 						</div>
 						<div>
 							<span>
-								{singleUser != undefined &&
-									singleUser != null &&
+								{singleUser !== undefined &&
+									singleUser !== null &&
 									singleUser.company.name}
 							</span>
 						</div>
